@@ -1,0 +1,29 @@
+.loadingContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.loading{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: .9em solid rgb(59, 42, 249);
+    border-top: .9em solid rgb(21, 13, 111);
+
+    animation: spin 2s ease-out infinite;
+
+}
+
+
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
